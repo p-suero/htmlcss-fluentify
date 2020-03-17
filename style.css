@@ -1,0 +1,186 @@
+/* i selettori seguono l'ordine della pagina html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #0d325a ;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+
+#logo {
+    width: 15%;
+    float: left;
+}
+
+nav {
+    width: 50%;
+    float: left;
+}
+
+.cta-container {
+    width: 35%;
+    float: left;
+}
+
+#header-top .container:first-child::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo img {
+    padding-top: 12%;
+}
+
+#header-top ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header-top li {
+    list-style-type: none;
+    float: left;
+}
+
+#header-top li a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 80px;
+    height: 80px;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#header-top li a:hover {
+    color:orange;
+}
+
+.button {
+    padding: 6px;
+    border: 1px solid #4e8cb6;
+    border-radius: 5px;
+    margin: 0 4px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.special-button {
+    background-color: #7fb802
+}
+
+.cta-container a {
+    text-decoration: none;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#header-bottom {
+    height: 420px;
+    background-image: url(img/business-men.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#header-bottom .container {
+    position: relative;
+}
+
+#small-wrapper {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    color: white;
+}
+
+#small-wrapper h1 {
+    font-weight: normal;
+    font-size: 37px;
+}
+
+#small-wrapper a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#info-corso {
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(10, 10, 10, 0.1);
+}
+
+
+#info-corso h2 {
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.7;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#info-corso p {
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.box-offerta-formativa {
+    width: calc(33% - 30px);
+    text-align: center;
+    float: left;
+    margin: 5px;
+    padding: 15px 0;
+}
+
+#offerta-formativa .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box-offerta-formativa img {
+    width:150px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+.box-offerta-formativa h2 {
+    color: #7fb802;
+    font-weight: 200;
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 324px;
+    height: 100px;
+}
+
+.box-offerta-formativa hr {
+    width: 10%;
+    margin: auto;
+}
+
+.box-offerta-formativa p {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height:25px;
+    font-size: 15px;
+}

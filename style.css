@@ -126,7 +126,7 @@ nav {
 #info-corso {
     height: 100px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     background-color: rgba(10, 10, 10, 0.1);
 }
 
